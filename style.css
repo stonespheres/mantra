@@ -1,0 +1,45 @@
+:root {
+    --purple: #8c52ff;
+    --yellow: #ffbd4a;
+    color: var(--yellow);
+    font-family: Norwester;
+}
+
+html {
+    background-color: black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: var(--yellow);
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    grid-column: 2;
+    height: 50vh;
+}
+
+@font-face {
+    font-family: Norwester;
+    src: url("/fonts/norwester/norwester.otf")
+}
+
+@font-face {
+    font-family: Aileron;
+    src: url("/fonts/aileron/Aileron-Regular.otf");
+}
