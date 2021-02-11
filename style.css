@@ -5,8 +5,19 @@
     font-family: Norwester;
 }
 
+@font-face {
+    font-family: Norwester;
+    src: url("/fonts/norwester/norwester.otf")
+}
+
+@font-face {
+    font-family: Aileron;
+    src: url("/fonts/aileron/Aileron-Regular.otf");
+}
+
 html {
     background-color: black;
+    color: var(--yellow);
 }
 
 header {
@@ -21,25 +32,35 @@ nav {
 }
 
 nav a {
+    font-family: Aileron;
     display: inline-block;
     color: var(--yellow);
     text-decoration: none;
     position: relative;
     text-align: center;
+    margin: auto;
 }
 
 #logo {
     position: relative;
     grid-column: 2;
     height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@font-face {
-    font-family: Norwester;
-    src: url("/fonts/norwester/norwester.otf")
+i {
+    padding: 0.5em;
+    margin: auto;
 }
 
-@font-face {
-    font-family: Aileron;
-    src: url("/fonts/aileron/Aileron-Regular.otf");
+.center {
+    margin: auto;
+    padding: 0.1em;
+    grid-column: 2;
+}
+
+#socialMedia {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
