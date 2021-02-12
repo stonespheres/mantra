@@ -54,6 +54,11 @@ i {
     margin: auto;
 }
 
+i,
+a {
+    color: var(--yellow);
+}
+
 .center {
     margin: auto;
     padding: 0.1em;
