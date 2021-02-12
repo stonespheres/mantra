@@ -41,6 +41,22 @@ nav a {
     margin: auto;
 }
 
+.navlink::after {
+    content: "";
+    display: block;
+    transform: scale(0, 0);
+    transition: ease-in-out 250ms;
+    border-bottom: 0.3rem solid var(--purple);
+}
+
+nav a:hover::after {
+    transform: scale(1, 1);
+}
+
+.selected {
+    border-bottom: 0.3rem solid var(--purple);
+}
+
 #logo {
     position: relative;
     grid-column: 2;
@@ -57,6 +73,10 @@ i {
 i,
 a {
     color: var(--yellow);
+}
+
+i:hover {
+    color: var(--purple);
 }
 
 .center {
