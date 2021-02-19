@@ -79,6 +79,7 @@ td.bold {
     background-color: var(--purple);
     color: var(--yellow);
     padding: 1em;
+    min-height: 60vh;
 }
 
 header {
