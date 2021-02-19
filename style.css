@@ -49,9 +49,9 @@ body {
 
 #column2 {
     color: var(--purple);
-    grid-row: 2;
     background-color: var(--yellow);
     padding: 1em;
+    min-height: 60vh;
 }
 
 #column2 h1,
