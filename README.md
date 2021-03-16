@@ -2,13 +2,9 @@
 Simple bootstrap website for Mantra Fitness Co.
 
 ## Styling
-Four main colours to be used, fonts should only be Aileron or Norwester.
+Four main colours to be used, fonts should only be Aileron or Norwester. Currently needs updating.
 
 ### Colours
     --purple: #8c52ff;
     --yellow: #ffbd4a;
 
-## Layout 
-Site should be sectioned in large squares. Where applicable the layout should resemble a large checker pattern.
-
-You can use this as a template if you so desire :)
