@@ -28,9 +28,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #8c52ff;
+  color: #101119;
   text-align: left;
-  background-color: #101119;
+  background-color: #EEE5E9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -443,7 +443,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #101119;
+  background-color: #EEE5E9;
   border: 1px solid #f7f3f5;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1669,7 +1669,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #8c52ff;
+  color: #101119;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2008,7 +2008,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #8c52ff;
+  color: #101119;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2027,7 +2027,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #8c52ff;
+  color: #101119;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2599,8 +2599,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #101119;
-  border-color: #f7f3f5 #f7f3f5 #101119;
+  background-color: #EEE5E9;
+  border-color: #f7f3f5 #f7f3f5 #EEE5E9;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -7038,7 +7038,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #8c52ff !important;
+  color: #101119 !important;
 }
 
 .text-muted {
@@ -7176,13 +7176,14 @@ h3 {
     border-color: #f7f3f5;
   }
 }
-.navbar-inverse {
-  background-color: #101119;
-}
-
 .jumbotron-fluid {
   background-image: url(../../media/DSC_7139.jpg);
   background-size: cover;
   padding-top: 20vh;
   padding-bottom: 25vh;
+  color: #EEE5E9;
+}
+
+.jumbotron-fluid h1 {
+  font-weight: bolder;
 }

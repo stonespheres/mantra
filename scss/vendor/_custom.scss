@@ -15,7 +15,8 @@ $cyan:    #06aed5;
 
 $warning:       $yellow;
 $brand-primary: $purple;
-$primary: $purple;
+$brand-secondary: $yellow;
+$primary:       $purple;
 
 $white:    #EEE5E9;
 $gray-100: #f8f9fa;
@@ -32,17 +33,9 @@ $black:    #101119;
 
 // Settings for the `<body>` element.
 
-$body-bg:       $black;
-$body-color:    $purple;
+$body-bg:       $white;
+$body-color:    $black;
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
 
 // Links
 //
