@@ -1,8 +1,12 @@
 # Mantra Fitness Co.
-Simple responsive website for Mantra Fitness Co.
+Simple bootstrap website for Mantra Fitness Co.
 
 ## Styling
 Four main colours to be used, fonts should only be Aileron or Norwester.
+
+### Colours
+    --purple: #8c52ff;
+    --yellow: #ffbd4a;
 
 ## Layout 
 Site should be sectioned in large squares. Where applicable the layout should resemble a large checker pattern.
