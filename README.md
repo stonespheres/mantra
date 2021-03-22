@@ -1,5 +1,5 @@
-# Mantra Fitness Co.
-Simple bootstrap website for Mantra Fitness Co.
+# Mantra
+Simple bootstrap website template developed for a personal trainer.
 
 ## Styling
 Four main colours to be used, fonts should only be Aileron or Norwester. Currently needs updating.
